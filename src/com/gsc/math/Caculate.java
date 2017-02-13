@@ -47,7 +47,7 @@ public class Caculate {
 	}
 	
 	/**
-	 * 求开方 优化，二分法
+	 * 求开平方 优化，二分法
 	 * 该方法效率明显比前两个方法快的多
 	 * @param source 被开方数，大于等于0
 	 * @param deviation 误差范围
@@ -81,7 +81,7 @@ public class Caculate {
 	}
 	
 	/**
-	 * 求开方 优化，步长调整
+	 * 求开平方 优化，步长调整
 	 * @param source 被开方数，大于等于0
 	 * @param deviation 误差范围
 	 * @return
@@ -130,8 +130,8 @@ public class Caculate {
 	}
 	
 	/**
-	 * 求开方
-	 * @param source 被开方数，大于等于0
+	 * 求开平方
+	 * @param source 被开平方数，大于等于0
 	 * @param deviation 误差范围
 	 * @return
 	 */
